@@ -1,6 +1,6 @@
 
-<h1>bibliophile</h1>
-<h2>An app for managing a library</h2>
+<h1>join</h1>
+<h2>An app that brings you closer to your friends</h2>
 <img src="images/loggo.gif" alt="App's loggo" width="500px" height="500px"/>
 <h3>What is <i>bibliophile</i> and how was it made?</h3>
 <b>bibliophile</b> is a desktop application that can help any library in their

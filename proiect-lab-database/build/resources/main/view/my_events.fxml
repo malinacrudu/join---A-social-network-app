@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #E1B1A0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="socialnetwork.controller.MyEventsController">
+    <children>
+        <ListView fx:id="listView" blendMode="MULTIPLY" layoutX="161.0" layoutY="76.0" prefHeight="350.0" prefWidth="590.0" style="-fx-background-color: #E1B1A0; -fx-border-color: #E1B1A0;" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+        <HBox alignment="CENTER" prefHeight="51.0" prefWidth="346.0" spacing="7.0" style="-fx-background-color:#E1B1A0;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#go_previous" prefHeight="22.0" prefWidth="36.0" style="-fx-background-color: #eec3c2; -fx-background-radius: 15;" text="&lt;&lt;" textFill="#8f4f40" />
+                <Label fx:id="pageLabel" text="1" textFill="#8f4f40" />
+                <Button mnemonicParsing="false" onAction="#go_next" prefHeight="22.0" prefWidth="36.0" style="-fx-background-color: #eec3c2; -fx-background-radius: 15;" text="&gt;&gt;" textFill="#8f4f40">
+                    <font>
+                        <Font name="Century Gothic" size="12.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#unfollow_event" prefHeight="30.0" prefWidth="172.0" style="-fx-background-color: #8F4F40; -fx-background-radius: 15;" text="Unfollow event" textFill="#faf7f7">
+                    <font>
+                        <Font name="Segoe UI Light" size="14.0" />
+                    </font>
+                    <effect>
+                        <Glow />
+                    </effect>
+                </Button>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

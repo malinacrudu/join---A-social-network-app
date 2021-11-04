@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="800.0" style="-fx-background-color: #E1B1A0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="socialnetwork.controller.LoggedInController">
+   <center>
+      <SplitPane fx:id="splitPane" dividerPositions="0.22305764411027568" prefHeight="400.0" prefWidth="800.0" style="-fx-background-color: #E1B1A0;" stylesheets="@splitStyle.css" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+               <VBox alignment="CENTER_LEFT" layoutX="-4.0" layoutY="-2.0" prefHeight="400.0" prefWidth="178.0" spacing="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+               <children>
+                        <ImageView fx:id="img" fitHeight="245.0" fitWidth="245.0" pickOnBounds="true">
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin></ImageView>
+                        <Label fx:id="labelUsername" alignment="CENTER" contentDisplay="CENTER" style="-fx-alignment: center;">
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="labelFullName" style="-fx-alignment: center;">
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="labelFriends" style="-fx-alignment: center;">
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Label>
+                  <Button fx:id="LogOutButton" mnemonicParsing="false" onAction="#log_out" prefHeight="30.0" prefWidth="121.0" style="-fx-background-color: #eec3c2; -fx-background-radius: 15;" text="Log Out" textFill="#8f4f40">
+                     <font>
+                        <Font name="Segoe UI Light" size="14.0" />
+                     </font>
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                  </Button>
+                   
+                        <Button fx:id="deleteAccountButton" alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="164.0" mnemonicParsing="false" onAction="#delete_account" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: #eec3c2; -fx-background-radius: 15;" text="Delete account" textFill="#8f4f40">
+                           <font>
+                              <Font name="Segoe UI Light" size="14.0" />
+                           </font>
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button fx:id="changePicture" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="227.0" mnemonicParsing="false" onAction="#change_picture" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: #eec3c2; -fx-background-radius: 15;" text="Change picture" textFill="#8f4f40">
+                           <font>
+                              <Font name="Segoe UI Light" size="14.0" />
+                           </font>
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Button>
+               </children>
+               <padding>
+                  <Insets left="5.0" />
+               </padding>
+            </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="300.0" style="-fx-background-color: #E1B1A0;">
+               <children>
+                  <TabPane fx:id="tPane" layoutY="-1.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #E1B1A0; -fx-border-color: #E1B1A0;" styleClass="floating" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-1.0">
+                    <tabs>
+                      <Tab fx:id="friendsTab" style="-fx-background-color: #eec3c2; -fx-font-family: 'Century Gothic';" text="Your friends" />
+                      <Tab fx:id="newFriendsTab" style="-fx-background-color: #eec3c2; -fx-font-family: 'Century Gothic';" text="Add new friend" />
+                      <Tab fx:id="requestsTab" style="-fx-background-color: #eec3c2; -fx-font-family: 'Century Gothic';" text="Friend requests" />
+                        <Tab fx:id="inboxTab" style="-fx-background-color: #eec3c2; -fx-font-family: 'Century Gothic';" text="Inbox" />
+                        <Tab fx:id="composeTab" style="-fx-background-color: #eec3c2; -fx-font-family: 'Century Gothic';" text="Compose message" />
+                        <Tab fx:id="eventCreatorTab" style="-fx-background-color: #eec3c2; -fx-font-family: 'Century Gothic';" text="Event creator" />
+                        <Tab fx:id="myEventsTab" onSelectionChanged="#notification" style="-fx-background-color: #eec3c2; -fx-font-family: 'Century Gothic';" text="My events" />
+                        <Tab fx:id="allEventsTab" style="-fx-background-color: #eec3c2; -fx-font-family: 'Century Gothic';" text="All events" />
+                        <Tab fx:id="reportsTab" style="-fx-background-color: #eec3c2; -fx-font-family: 'Century Gothic';" text="Reports" />
+                    </tabs>
+                  </TabPane>
+               </children>
+            </AnchorPane>
+        </items>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <ColorAdjust />
+         </effect>
+      </SplitPane>
+   </center>
+</BorderPane>

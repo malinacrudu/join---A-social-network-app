@@ -1,0 +1,59 @@
+.date-picker-popup .month-year-pane
+{
+    -fx-background-color: #E1B1A0;
+
+}
+.month-year-pane .text
+{
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 13.0;
+    -fx-fill: #8F4F40;
+}
+.date-cell {
+    -fx-background-color: #E1B1A0;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 12.0;
+    -fx-text-fill:#8F4F40;
+}
+.date-picker .text-field{
+    -fx-background-radius:0px ;
+    -fx-border-color: transparent;
+}
+
+.date-picker .arrow-button:hover .arrow{
+    -fx-background-radius:0px ;
+    -fx-background-color:  #ffff;
+}
+
+.date-picker .button
+{
+    -fx-border-color:transparent;
+    -fx-pref-height: 35px;
+    -fx-pref-width: 35px;
+}
+
+.date-picker .button .arrow:pressed {
+    -fx-border-color:transparent;
+    -fx-pref-height: 35px;
+    -fx-pref-width: 35px;
+}
+
+.date-picker .cell {
+    -fx-background-color: #E1B1A0;
+    -fx-pref-width:20px ;
+    -fx-pref-height:25px ;
+}
+
+.date-picker .cell:hover {
+    -fx-background-color: #f88f83;
+    -fx-pref-width:20px ;
+    -fx-pref-height:25px ;
+}
+
+.date-picker .cell:focused
+{
+    -fx-background-color:#f88f83;
+    -fx-pref-width:20px ;
+    -fx-pref-height:25px ;
+}
+

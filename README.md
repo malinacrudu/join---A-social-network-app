@@ -15,9 +15,9 @@ if they already have an acount or if they want to sign up to our community.
 If a person does not have an account they can easily register by filling in
 a short list of fields with personal information.
 <img src="images/2.png" alt="Registration" />
-<h3>What can you do as a user?</h3>
-An user can that is logged into the application can see in the left side of the 
-screen their username, their full name and their number of friends. The user
+<h3>What can you do as an user?</h3>
+An user that is logged into the application can see, in the left side of the 
+screen, their username, their full name and their number of friends. The user
 has the possibility to change their profile picture or delete their account.
 Moreover they can see a list with their current friends.
 <img src="images/3.png" alt="User's friends" />
@@ -27,7 +27,7 @@ An user can reject or accept a request and, in case they change their mind they 
 a request they sent. 
 <img src="images/5.png" alt="Requests" />
 <img src="images/14.png" alt="My Requests" />
-The inbox ilustrates the messages a user received and they can 
+The inbox ilustrates the messages an user received and they can 
 reply to any message. If an user wants to send a message to multiple people
 at a time they can use the Compose message tab. 
 <img src="images/6.png" alt="Inbox" />

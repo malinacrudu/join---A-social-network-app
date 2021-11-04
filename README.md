@@ -23,7 +23,7 @@ Moreover they can see a list with their current friends.
 <img src="images/3.png" alt="User's friends" />
 If someone wants a new friend they can send them a friend request. 
 <img src="images/4.png" alt="Add friend" />
-An user can reject or accept a request and, in case they change their mind they can cancel 
+An user can reject or accept a request and, in case they changed their mind, they can cancel 
 a request they sent. 
 <img src="images/5.png" alt="Requests" />
 <img src="images/14.png" alt="My Requests" />
@@ -33,8 +33,7 @@ at a time they can use the Compose message tab.
 <img src="images/6.png" alt="Inbox" />
 <img src="images/7.png" alt="Compose" />
 The users have the possibility to creat events or follow already existing ones from the
-All events tab.
-When clicking on the My events tab the user receives an alert that notifies them
+All events tab. When clicking on the My events tab the user receives an alert that notifies them
 if they have an upcoming event in the next 24h.
 <img src="images/8.png" alt="Create events" />
 <img src="images/13.png" alt="All events" />
@@ -43,7 +42,6 @@ if they have an upcoming event in the next 24h.
 For checking their activity during a period of time, users can generate reports
 that contain how many new friendships they made and how many messages they exchanged in total. They can also see 
 how many messages they exchanged with a friend and which are those messages. If they want, they can export the report as a PDF.
-
 <img src="images/10.png" alt="Report" />
 <img src="images/11.png" alt="Report generated" />
 <img src="images/report.png" alt="Report exported" />

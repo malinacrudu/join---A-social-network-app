@@ -1,7 +1,7 @@
 
 <h1>join</h1>
 <h2>An app that brings you closer to your friends</h2>
-<img src="images/loggo.gif" alt="App's loggo" width="500px" height="500px"/>
+<img src="images/logo.png" alt="App's loggo" width="500px" height="500px"/>
 <h3>What is <i>bibliophile</i> and how was it made?</h3>
 <b>bibliophile</b> is a desktop application that can help any library in their
 pursue of managing their day to day activities: from lending books

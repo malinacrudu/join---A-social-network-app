@@ -16,7 +16,7 @@ If a person does not have an account they can easily register by filling in
 a short list of fields with personal information.
 <img src="images/2.png" alt="Registration" />
 <h3>What can you do as a user?</h3>
-A reader can that is logged into the application can see in the left side of the 
+An user can that is logged into the application can see in the left side of the 
 screen their username, their full name and their number of friends. The user
 has the possibility to change their profile picture or delete their account.
 Moreover they can see a list with their current friends.
